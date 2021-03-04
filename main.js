@@ -1,7 +1,9 @@
+var hamburgerMenu = $('.hamburger-menu'); 
+
 $('.header-right > a').click(function () {
-    $('.hamburger-menu').show();
+    hamburgerMenu.show();
 });
 
 $('a.close').click(function () {
-    $('.hamburger-menu').hide();
+    hamburgerMenu.hide();
 });
